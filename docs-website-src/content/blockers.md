@@ -58,7 +58,7 @@ You can discover many of these issues by downloading `elevate-cpanel` and runnin
   * Since `ethX` style names are automatically assigned by the kernel, there is no guarantee that this name will remain the same upon upgrade to a new kernel version tier.
   * The "default" approach in `network-scripts` config files of specificying NICs by `DEVICE` can cause issues due to the above.
   * A more in-depth explanation of *why* this is a problem (and what to do about it) can be found at [freedesktop.org](https://www.freedesktop.org/wiki/Software/systemd/PredictableNetworkInterfaceNames/).
-  * One way to prevent these isssues is to assign a name you want in the configuration and re-initialize NICs ahead of time.
+  * One way to prevent these issues is to assign a name you want in the configuration and re-initialize NICs ahead of time.
 
 # Other Known Issues
 
